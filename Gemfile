@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+source 'http://torquebox.org/2x/builds/1380/gem-repo/'
 gem 'rails', '3.2.12'
 
 # Bundle edge Rails instead:
@@ -37,5 +37,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-gem 'torquebox', '~> 2.3.0'
-gem 'torquebox-server', '~> 2.3.0'
+gem 'torquebox', '= 2.x.incremental.1380'
+gem 'torquebox-server', '= 2.x.incremental.1380'

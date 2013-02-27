@@ -11,6 +11,7 @@ class SessionWatcherStomplet < TorqueBox::Stomp::JmsStomplet
     Rails.logger.info "GOT SUB:"
     Rails.logger.info subscriber.destination
     Rails.logger.info subscriber.session[:meta_user]
+    Rails.logger.info subscriber.session['meta_user']
     Rails.logger.info subscriber.session
     Rails.logger.info "HELLO WORLD!"
     Rails.logger.info subscriber.getSession.getAttributeNames
